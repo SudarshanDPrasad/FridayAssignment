@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp">
+
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivimageTop"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/unnamed" />
+
+        <ImageView
+            android:id="@+id/ivimageleft"
+            android:layout_width="75dp"
+            android:layout_height="39dp"
+            android:layout_below="@id/ivimageTop"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/masailogo" />
+
+        <Button
+            android:id="@+id/btnlink"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@id/ivimageTop"
+            android:layout_margin="20dp"
+            android:background="@android:color/transparent"
+            android:layout_toEndOf="@id/ivimageleft"
+            android:textColor="#00008B"
+            android:text="www.youtube.com/channel/UCENOACKQiqejXP-bb9sCnMg" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
